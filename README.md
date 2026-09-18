@@ -62,5 +62,5 @@ plot. Full discussion in `docs/writeup.pdf`.
   post-2020 comparison.
 
 ## Author
-*(your name)* — undergraduate project, submitted as part of a research
+Agyei Padmond Kofi— undergraduate project, submitted as part of a research
 portfolio.
