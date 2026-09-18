@@ -1,0 +1,9 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Keep small generated CSVs but ignore anything oversized if you regenerate
+# raw/large data locally instead of committing it:
+# data/*.csv
