@@ -16,6 +16,16 @@ elevated market-wide co-movement during 2020–2024 (COVID crash, 2022
 rate-hike selloff, subsequent recovery) rather than a breakdown of the
 factor model.
 
+The rolling 60-month alpha of the equal-weighted universe portfolio adds a
+time dimension to this: alpha peaked at **0.88%/month (t = 5.71)** for the
+window ending January 2012 — largely reflecting the 2008 crisis and its
+recovery — decayed to roughly zero by 2017, and has recently turned
+slightly **negative** (−0.11%/month by December 2024) as COVID-era data
+has entered the trailing window. Separately, **AAPL** is the only stock in
+the universe with a statistically significant alpha in every model
+(FF3: ~1.8%/month, t = 3.43, p < 0.001) — a persistent abnormal return none
+of the factors explain away.
+
 ## Method
 1. **Data**: Monthly returns for 20 large-cap US stocks (2000–2024) plus
    Fama-French 5-factor and momentum data from Kenneth French's data library.
@@ -52,7 +62,7 @@ source("R/04_plots.R")
 ## Results
 See `output/model_summary.csv` for the headline comparison across CAPM, FF3,
 and FF3+Momentum, and `output/rolling_alpha.png` for the time-varying alpha
-plot. Full discussion in `docs/writeup.pdf`.
+plot. Full discussion in `docs/writeup.md`.
 
 ## Limitations
 - Universe is 20 liquid large-cap stocks, not the full market — results are
